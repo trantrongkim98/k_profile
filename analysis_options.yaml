@@ -1,0 +1,25 @@
+include: package:lint/analysis_options.yaml
+
+linter:
+  rules:
+    always_put_required_named_parameters_first: false
+    
+    avoid_classes_with_only_static_members: false
+
+
+    sort_constructors_first: false
+
+    # The new tabs vs. spaces. Choose wisely
+    prefer_single_quotes: true
+
+    
+    # Blindly follow the Flutter code style, which prefers types everywhere
+    always_specify_types: false
+  
+    # Back to the 80s
+    lines_longer_than_80_chars: true
+    
+    sort_pub_dependencies: false
+
+    
+    
